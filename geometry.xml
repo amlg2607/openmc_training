@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" name="Fuel Cell" material="1" region="-1 3 -4" universe="1"/>
+  <cell id="2" name="Water Moderator Cell" material="2" region="1 -2 3 -4" universe="1"/>
+  <surface id="1" name="Fuel Outer Surface" type="quadric" coeffs="1.0 1.0 0.0 -0.0 -0.0 -0.0 0.0 0.0 0.0 -0.17639999999999997"/>
+  <surface id="2" name="Unit Cell Boundary" type="quadric" boundary="reflective" coeffs="1.0 1.0 0.0 -0.0 -0.0 -0.0 0.0 0.0 0.0 -1.5876000000000001"/>
+  <surface id="3" name="Lower Boundary" type="z-plane" boundary="vacuum" coeffs="-50.0"/>
+  <surface id="4" name="Upper Boundary" type="z-plane" boundary="vacuum" coeffs="50.0"/>
+</geometry>

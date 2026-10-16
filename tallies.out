@@ -1,0 +1,15 @@
+ ===================>     TALLY 1: FUEL FLUX TALLY     <====================
+
+ Cell 1
+   Incoming Energy [0, 0.625)
+     Total Material
+       Flux                                 1.74449 +/- 0.00243898
+       Fission Rate                         0.416319 +/- 0.000636139
+   Incoming Energy [0.625, 100000)
+     Total Material
+       Flux                                 1.04423 +/- 0.00126562
+       Fission Rate                         0.0109975 +/- 2.36793e-05
+   Incoming Energy [100000, 20000000)
+     Total Material
+       Flux                                 2.45138 +/- 0.00273951
+       Fission Rate                         0.0176526 +/- 3.14053e-05

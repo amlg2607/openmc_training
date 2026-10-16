@@ -1,0 +1,19 @@
+#entra no ambiente Montecarlo
+
+conda activate Montecarlo    
+
+#exporta as bibliotecas de seção de choque
+
+export OPENMC_CROSS_SECTIONS="/mnt/c/Users/amlgp/Desktop/montecarlo_projects/openmc_data/endfb-vii.1-hdf5/cross_sections.xml"  
+
+#executa a simulação
+
+openmc
+
+# fazer alguma alteração do código
+
+ctrl + s
+
+python create_model.py
+
+openmc
